@@ -1,0 +1,53 @@
+{
+    "login": {
+        "title": "Login",
+        "username": "Username:",
+        "password": "Password:",
+        "login_button": "Login",
+        "error_empty_fields": "Please enter both username and password.",
+        "error_invalid_credentials": "Invalid username or password.",
+        "success_login": "Login successful!"
+    },
+    "main": {
+        "title": "2FA Verifier",
+        "search_accounts": "Search Accounts:",
+        "add_account": "Add New Account",
+        "verify_code": "Verify Code",
+        "manage_accounts": "Manage Accounts",
+        "backup_restore": "Backup and Restore"
+    },
+    "add_account": {
+        "title": "Add New Account",
+        "user_email": "User Email:",
+        "generate_qr_code": "Generate QR Code",
+        "error_empty_email": "Please enter a user email.",
+        "success_add_account": "Added new account for {user_email}."
+    },
+    "verify_code": {
+        "title": "Verify Code",
+        "user_email": "User Email:",
+        "totp_code": "TOTP Code:",
+        "success_valid_code": "The code is valid.",
+        "error_invalid_code": "Invalid TOTP code. Enter a backup code if available:",
+        "success_backup_code": "Backup code is valid. Please generate new backup codes.",
+        "error_invalid_backup_code": "Invalid backup code. Access denied.",
+        "error_no_account": "No account found for this email.",
+        "error_general": "An error occurred while verifying the code. Please try again."
+    },
+    "manage_accounts": {
+        "title": "Manage Accounts",
+        "delete_account": "Delete Selected Account",
+        "success_delete_account": "Account {selected_account} deleted successfully.",
+        "error_no_account_selected": "No account selected.",
+        "error_general": "Failed to delete account."
+    },
+    "backup_restore": {
+        "title": "Backup and Restore",
+        "backup_database": "Backup Database",
+        "restore_database": "Restore Database",
+        "success_backup": "Database backed up to {backup_file}",
+        "error_backup": "Failed to backup database.",
+        "success_restore": "Database restored from {backup_file}",
+        "error_restore": "Failed to restore database."
+    }
+}

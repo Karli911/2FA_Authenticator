@@ -1,0 +1,53 @@
+{
+    "login": {
+        "title": "Iniciar Sesión",
+        "username": "Nombre de usuario:",
+        "password": "Contraseña:",
+        "login_button": "Iniciar Sesión",
+        "error_empty_fields": "Por favor ingrese el nombre de usuario y la contraseña.",
+        "error_invalid_credentials": "Nombre de usuario o contraseña inválidos.",
+        "success_login": "¡Inicio de sesión exitoso!"
+    },
+    "main": {
+        "title": "Verificador 2FA",
+        "search_accounts": "Buscar Cuentas:",
+        "add_account": "Agregar Nueva Cuenta",
+        "verify_code": "Verificar Código",
+        "manage_accounts": "Gestionar Cuentas",
+        "backup_restore": "Copia de Seguridad y Restauración"
+    },
+    "add_account": {
+        "title": "Agregar Nueva Cuenta",
+        "user_email": "Correo Electrónico:",
+        "generate_qr_code": "Generar Código QR",
+        "error_empty_email": "Por favor ingrese un correo electrónico.",
+        "success_add_account": "Nueva cuenta agregada para {user_email}."
+    },
+    "verify_code": {
+        "title": "Verificar Código",
+        "user_email": "Correo Electrónico:",
+        "totp_code": "Código TOTP:",
+        "success_valid_code": "El código es válido.",
+        "error_invalid_code": "Código TOTP inválido. Ingrese un código de respaldo si está disponible:",
+        "success_backup_code": "El código de respaldo es válido. Por favor genere nuevos códigos de respaldo.",
+        "error_invalid_backup_code": "Código de respaldo inválido. Acceso denegado.",
+        "error_no_account": "No se encontró ninguna cuenta con este correo electrónico.",
+        "error_general": "Ocurrió un error al verificar el código. Por favor intente de nuevo."
+    },
+    "manage_accounts": {
+        "title": "Gestionar Cuentas",
+        "delete_account": "Eliminar Cuenta Seleccionada",
+        "success_delete_account": "Cuenta {selected_account} eliminada con éxito.",
+        "error_no_account_selected": "No se seleccionó ninguna cuenta.",
+        "error_general": "Error al eliminar la cuenta."
+    },
+    "backup_restore": {
+        "title": "Copia de Seguridad y Restauración",
+        "backup_database": "Copia de Seguridad de la Base de Datos",
+        "restore_database": "Restaurar Base de Datos",
+        "success_backup": "Base de datos copiada a {backup_file}",
+        "error_backup": "Error al hacer copia de seguridad de la base de datos.",
+        "success_restore": "Base de datos restaurada desde {backup_file}",
+        "error_restore": "Error al restaurar la base de datos."
+    }
+}
