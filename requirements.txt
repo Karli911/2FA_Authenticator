@@ -1,0 +1,9 @@
+pyotp
+qrcode
+opencv-python
+cryptography
+pysqlcipher3
+pylint
+flake8
+pillow
+pypng
